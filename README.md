@@ -12,7 +12,7 @@ A calm, minimal browser for Mac, written in Swift and powered by WebKit, with ve
 
 ---
 
-> **Lume is in beta.** Expect rough edges, changing features and the occasional bug. Feedback is welcome: open an issue and tell us what you ran into.
+> **Lume is in alpha.** Expect rough edges, changing features and the occasional bug. Feedback is welcome: open an issue and tell us what you ran into.
 
 ## About
 
@@ -43,7 +43,7 @@ Lume is a native macOS web browser written in **Swift** with **SwiftUI**. It ren
 
 ### "Lume can't be opened"
 
-Beta builds aren't notarized with Apple yet, so macOS Gatekeeper may block the first launch. To open it anyway, do either of these:
+Alpha builds aren't notarized with Apple yet, so macOS Gatekeeper may block the first launch. To open it anyway, do either of these:
 
 - Right-click **Lume.app**, choose **Open**, then choose **Open** again.
 - Or run this in Terminal:
