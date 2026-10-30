@@ -83,14 +83,23 @@ Lume is a native macOS web browser written in **Swift** with **SwiftUI**. It ren
 
 ### "Lume can't be opened"
 
-Lume isn't notarized with Apple yet, so macOS Gatekeeper may block the first launch. To open it anyway, do either of these:
+Lume isn't notarized by Apple, so macOS blocks it the first time you open it. To allow it:
 
-- Right-click **Lume.app**, choose **Open**, then choose **Open** again.
-- Or run this in Terminal:
+1. Try to open Lume once. macOS shows a message that it can't be opened. Click **Done**.
+2. Open **System Settings → Privacy & Security**.
+3. Scroll down to the message about Lume and click **Open Anyway**, then confirm with your password or Touch ID.
 
-  ```bash
-  xattr -cr /Applications/Lume.app
-  ```
+You only need to do this once. On macOS 15 and later, right-click → Open no longer skips this step.
+
+If you're comfortable with Terminal, this does the same thing:
+
+```bash
+xattr -cr /Applications/Lume.app
+```
+
+### Updates
+
+From 0.4.0 on, Lume updates itself. It checks once a day, or choose **Lume → Check for Updates…**. Updates are signed and install without the step above. You can turn automatic checks off in **Settings → General → Updates**. If you're on 0.3.0 or earlier, download 0.4.0 by hand once.
 
 ## Keyboard shortcuts
 
