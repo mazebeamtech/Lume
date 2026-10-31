@@ -8,7 +8,7 @@
 
 A calm, fast browser for Mac, written in Swift and powered by WebKit. Vertical tabs, separate spaces, one command bar, built-in ad blocking and Chrome extensions.
 
-[Download](../../releases) · [Features](#features) · [Shortcuts](#keyboard-shortcuts) · [What's new](#whats-new-in-040)
+[Download](../../releases) · [Features](#features) · [Shortcuts](#keyboard-shortcuts) · [What's new](#whats-new-in-041)
 
 </div>
 
@@ -62,13 +62,11 @@ Lume is a native macOS web browser written in **Swift** with **SwiftUI**. It ren
 - Set Lume as your **default browser**.
 - **Automatic updates:** Lume checks for new versions once a day and installs them for you.
 
-## What's new in 0.4.0
+## What's new in 0.4.1
 
-- **Automatic updates:** Lume now updates itself. Check any time with **Lume → Check for Updates…**.
-- **Cleaner new tabs:** new tabs are calm and empty by default. The start page with favourites and recent sites is now optional, in Settings or during setup.
-- **↓ Clear** in the sidebar closes every tab that isn't pinned or in a folder.
-- Pinned tabs and pinned extensions stretch to fill the sidebar when you only have a few.
-- **Pinch to zoom** on web pages, and the zoom level (like **110%**) shows in the address bar. Click it to reset.
+- **Smoother setup:** pages slide without stuttering, and the moving background uses far less power.
+- **New colour editor:** drag the dots around a canvas to pick your space's colours, shuffle or swap them, turn a dial to set the gradient's angle and drag the wave to set its intensity.
+- Setup's background follows your space's colours, angle and intensity as you design it, and holds still with Reduce Motion on.
 
 See [all releases](../../releases) for earlier changes.
 
