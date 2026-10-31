@@ -5,5 +5,47 @@
     <link>https://github.com/mazebeamtech/Lume</link>
     <description>Updates for Lume, a calm, fast Mac browser.</description>
     <language>en</language>
+    <item>
+      <title>Lume 0.4.0</title>
+      <pubDate>Sat, 31 Oct 2026 00:02:04 GMT</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h3>What&#x27;s new in 0.4.0 beta</h3>
+<h4>Automatic updates</h4>
+<ul>
+<li>Lume now <b>updates itself</b>. It checks once a day and lets you know when a new version is ready, or choose <b>Lume → Check for Updates…</b> any time.</li>
+<li>Turn automatic checks or background installs on or off in <b>Settings → General → Updates</b>.</li>
+<li>Updates are signed, and Lume only installs ones signed by us.</li>
+</ul>
+<h4>A cleaner new tab</h4>
+<ul>
+<li>New tabs now open to a calm, empty page in your space&#x27;s colours. Press <b>⌘T</b> or <b>⌘L</b> to search or go somewhere.</li>
+<li>Prefer the old start page with a greeting, favourites and recently visited sites? Turn on <b>Show start page in new tabs</b> in <b>Settings → General</b> or during setup.</li>
+</ul>
+<h4>Sidebar</h4>
+<ul>
+<li><b>Clear:</b> hover over your tabs and click <b>↓ Clear</b> to close every tab that isn&#x27;t pinned or in a folder. Changed your mind? <b>⇧⌘T</b> brings them back.</li>
+<li>Pinned tabs and pinned extensions now stretch to fill the sidebar when you only have a few.</li>
+</ul>
+<h4>Zoom</h4>
+<ul>
+<li><b>Pinch to zoom</b> on a trackpad now works on web pages.</li>
+<li>When a site is zoomed with <b>⌘+</b> or <b>⌘−</b>, the address bar shows the zoom level (like <b>110%</b>). Click it to go back to 100%.</li>
+</ul>
+<h4>Install</h4>
+<ul>
+<li>Download <b>Lume.dmg</b> below, open it and drag <b>Lume.app</b> into <b>Applications</b>.</li>
+<li>Lume isn&#x27;t notarized by Apple, so macOS blocks it the first time you open it. Open <b>System Settings → Privacy &amp; Security</b>, scroll down and click <b>Open Anyway</b> next to the message about Lume, then confirm. You only need to do this once.</li>
+</ul>
+<p><b>Already on 0.3.0?</b> Install 0.4.0 by hand this one time. From 0.4.0 on, Lume updates itself.</p>
+<h4>Requirements</h4>
+<ul>
+<li>macOS 15.4 or later.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/mazebeamtech/Lume/releases/download/v0.4.0-beta.1/Lume.dmg" sparkle:edSignature="26h6MC5WfaYg66CVRpb/qRCw2E/CHEQMYZoHOcaPrf7h0ZCWMntDdG5VVfQePxJuxQc2pWQOx7bBNz+eKyMXAA==" length="4684648" type="application/octet-stream"/>
+    </item>
   </channel>
 </rss>

@@ -8,7 +8,7 @@
 
 A calm, fast browser for Mac, written in Swift and powered by WebKit. Vertical tabs, separate spaces, one command bar, built-in ad blocking and Chrome extensions.
 
-[Download](../../releases) · [Features](#features) · [Shortcuts](#keyboard-shortcuts) · [What's new](#whats-new-in-030)
+[Download](../../releases) · [Features](#features) · [Shortcuts](#keyboard-shortcuts) · [What's new](#whats-new-in-040)
 
 </div>
 
@@ -26,6 +26,7 @@ Lume is a native macOS web browser written in **Swift** with **SwiftUI**. It ren
 - **Vertical tabs:** your tabs live in a sidebar, where titles stay readable even with a lot open.
 - **Spaces:** keep work, school and home apart. Each space has its own tabs, colours, search engine and separate logins. Swipe sideways on the sidebar to switch.
 - **Folders and pinned tabs:** group tabs into folders, and pin the sites you live in to a grid at the top. Drag tabs to reorder them or move them between spaces.
+- **Clear:** hover over your tabs and click **↓ Clear** to close everything that isn't pinned or in a folder.
 - **Split view:** show two tabs side by side.
 - **Peek:** shift-click a link to preview it in a floating card without leaving the page.
 - **Sleeping tabs:** tabs you haven't used for a while free their memory and wake up right where you left them.
@@ -33,8 +34,9 @@ Lume is a native macOS web browser written in **Swift** with **SwiftUI**. It ren
 
 ### Getting around
 - **Command bar:** search, open a site, jump to a tab, or find something in your bookmarks and history from one place. You can also run actions like "Clear browsing data" by typing their name.
-- **Start page:** new tabs open to your favourites and recently visited sites.
+- **Clean new tabs:** new tabs open to a calm, empty page in your space's colours. Prefer a start page with your favourites and recently visited sites? Turn it on in Settings.
 - **Find on page**, **reader mode** for distraction-free articles, and **picture in picture** for videos.
+- **Zoom:** pinch on a trackpad, or use ⌘+ and ⌘−. Lume remembers the zoom for each site and shows it in the address bar.
 - **Library:** downloads, history, bookmarks, passwords, extensions, spaces and Boosts, all behind one button in the sidebar.
 
 ### Privacy and security
@@ -58,16 +60,17 @@ Lume is a native macOS web browser written in **Swift** with **SwiftUI**. It ren
 - **Import** bookmarks and history from Chrome, Arc, Brave, Edge, Vivaldi, Opera, Firefox, Zen or Safari.
 - **Backup and restore** your spaces, tabs, bookmarks, history and settings to a single file.
 - Set Lume as your **default browser**.
+- **Automatic updates:** Lume checks for new versions once a day and installs them for you.
 
-## What's new in 0.3.0
+## What's new in 0.4.0
 
-- Chrome extension support, with installs straight from the Chrome Web Store.
-- Lume Shield ad and tracker blocking, HTTPS upgrades, pop-up blocking and per-site permissions.
-- The new Library, folders, split view, Peek, reader mode, sleeping tabs and Boosts.
-- A smarter command bar with suggestions, history, bookmarks and actions.
-- Safer passwords with Touch ID, a password generator and CSV import.
-- A redesigned setup that helps you pick an ad blocker.
-- Fixes for file uploads, sign-in pop-ups, fullscreen video, site alerts, and sites that only use `http://`.
+- **Automatic updates:** Lume now updates itself. Check any time with **Lume → Check for Updates…**.
+- **Cleaner new tabs:** new tabs are calm and empty by default. The start page with favourites and recent sites is now optional, in Settings or during setup.
+- **↓ Clear** in the sidebar closes every tab that isn't pinned or in a folder.
+- Pinned tabs and pinned extensions stretch to fill the sidebar when you only have a few.
+- **Pinch to zoom** on web pages, and the zoom level (like **110%**) shows in the address bar. Click it to reset.
+
+See [all releases](../../releases) for earlier changes.
 
 ## Requirements
 
@@ -99,7 +102,7 @@ xattr -cr /Applications/Lume.app
 
 ### Updates
 
-From 0.4.0 on, Lume updates itself. It checks once a day, or choose **Lume → Check for Updates…**. Updates are signed and install without the step above. You can turn automatic checks off in **Settings → General → Updates**. If you're on 0.3.0 or earlier, download 0.4.0 by hand once.
+Lume updates itself. It checks once a day, or choose **Lume → Check for Updates…**. Updates are signed and install without the step above. You can turn automatic checks off in **Settings → General → Updates**. If you're on 0.3.0 or earlier, download 0.4.0 by hand once.
 
 ## Keyboard shortcuts
 
@@ -126,6 +129,7 @@ These are the defaults. You can change any of them in **Settings → Shortcuts**
 | ⌘Y | History |
 | ⌘J | Downloads |
 | ⇧⌘C | Copy page address |
+| ⌘+, ⌘− and ⌘0 | Zoom in, zoom out and actual size |
 | ⇧⌘⌫ | Clear browsing data |
 | Shift-click a link | Peek at it |
 
