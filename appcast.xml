@@ -6,6 +6,39 @@
     <description>Updates for Lume, a calm, fast Mac browser.</description>
     <language>en</language>
     <item>
+      <title>Lume 0.4.1</title>
+      <pubDate>Sat, 31 Oct 2026 03:40:15 GMT</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h3>What&#x27;s new in 0.4.1 beta</h3>
+<h4>Smoother setup</h4>
+<ul>
+<li>Setup is much smoother: pages slide without stuttering, and the moving background uses far less power.</li>
+<li>The background now follows your space as you design it, including its colours, gradient angle and intensity, and glides between changes.</li>
+<li>The background holds still when <b>Reduce Motion</b> is on.</li>
+</ul>
+<h4>A new way to pick your colours</h4>
+<ul>
+<li><b>Make it yours</b> has a new colour editor. Drag the dots around a canvas to pick colours, tap <b>Shuffle</b> for a random pair, or <b>Swap</b> a gradient&#x27;s two colours.</li>
+<li>Turn the new <b>angle dial</b> to point your gradient, and drag the wave to set the intensity.</li>
+<li>The live preview of your space is now bigger and at the top, and the name and emoji fields are cleaner.</li>
+</ul>
+<h4>Install</h4>
+<ul>
+<li>Download <b>Lume.dmg</b> below, open it and drag <b>Lume.app</b> into <b>Applications</b>.</li>
+<li>Lume isn&#x27;t notarized by Apple, so macOS blocks it the first time you open it. Open <b>System Settings → Privacy &amp; Security</b>, scroll down and click <b>Open Anyway</b> next to the message about Lume, then confirm. You only need to do this once.</li>
+</ul>
+<p><b>Already on 0.4.0?</b> Lume offers this update by itself within a day, or choose <b>Lume → Check for Updates…</b>.</p>
+<h4>Requirements</h4>
+<ul>
+<li>macOS 15.4 or later.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/mazebeamtech/Lume/releases/download/v0.4.1-beta.1/Lume.dmg" sparkle:edSignature="CmkrijbU6HsYiWyMZ5pOkd1O6eZQh47qPfHNoyQ/p7cvK3LeO6ofDEwMGeW1YrEf4hkyh5yEQEu6HrL03FF3BQ==" length="4756563" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Lume 0.4.0</title>
       <pubDate>Sat, 31 Oct 2026 00:02:04 GMT</pubDate>
       <sparkle:version>4</sparkle:version>
